@@ -1,0 +1,149 @@
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+/* 主体部分 start */
+.signup {
+    margin: 0 0.5625rem;
+    /* height: 20.4375rem; */
+}
+.signup a.logo {
+    width: 6.25rem;
+    height: 1.875rem;
+    display: block;
+    margin: 1.25rem auto;
+    background: url('../img/logo200.png') no-repeat;
+    background-size: 100px;
+}
+.nav-tab {
+    width: 100%;
+    display: table;
+    padding-bottom: 30px;
+}
+.nav-tab li {
+    display: table-cell;
+    width: 50%;
+}
+.nav-tab a {
+    display: block;
+    width: 100%;
+    line-height: 2.5rem;
+    border-top: 0.125rem solid #dadada;
+    font-size: 0.9375rem;
+    color: #999;
+    text-align: center;
+    background-color: #fafafa;
+}
+.nav-tab li.on a {
+    border-top: 2px solid #ffba33;
+    background-color: #fff;
+    color: #ffba33;
+}
+.signup .forms {
+    border-radius: 0.3125rem;
+    border: 1px solid #dadada;
+}
+.signup .forms li {
+    border-bottom: 0.0625rem solid #dadada;
+    position: relative;
+}
+.signup .forms li .input {
+    height: 2.6875rem;
+    background: 0;
+    border: 0;
+    font-size: 1.0rem;
+    line-height: 1em;
+    width: 100%;
+    text-indent: 0.6875rem;
+}
+.signup .links {
+    padding: 0.25rem 0 0;
+    text-align: right;
+}
+.signup .links a {
+    color: #999;
+    font-size: 0.75rem;
+}
+.signup .btns {
+    width: 100%;
+    padding-top: 0.625rem;
+}
+.signup .btns .btn {
+    display: block;
+    margin: 0.625rem 0;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+    text-align: center;
+    background-color: #fff;
+    border: 0.0625rem solid #ffba33;
+    color: #ffba33;
+    border-radius: 0.3125rem;
+}
+.signup .btns .btn:first-child {
+    background-color: #ffba33;
+    border: 0.0625rem solid #d8b165;
+    color: #fff;
+}
+/* 主体部分 end */
+/* 其他方式 start */
+.connect {
+    width: 100%;
+    margin-top: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+.connect .hd {
+    border-top: 0.0625rem solid #d8d8d8;
+    height: 1.5625rem;
+    width: 100%;
+    position: relative;
+}
+.connect .hd span {
+    font-size: 0.75rem;
+    color: #CCC;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 0.3125rem;
+    top: -0.5rem;
+    left: 50%;
+    margin-left: -4.125rem;
+    position: absolute;
+}
+
+.connect .bd {
+    width: 100%;
+    display: table;
+}
+
+.connect .bd li {
+    display: table-cell;
+    width: 33%;
+}
+.connect .bd a {
+    display: block;
+    margin: 0 0.9375rem;
+    border: 0.0625rem solid #e6e5e5;
+    background-color: #f3f3f3;
+    text-align: center;
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.4em;
+    padding-bottom: 0.5rem;
+    border-radius: 0.3125rem;
+}
+.connect .bd i {
+    width: 2.5rem;
+    height:2.375rem;
+    display: inline-block;
+    background: url('../img/connect_ico.png') no-repeat;
+    background-size: 8.125rem 1.875rem;
+}
+.connect .bd .weibo {
+    background-position: 0.3125rem 0.625rem;
+}
+.connect .bd .qq {
+    background-position: -2.6875rem 0.625rem;
+}
+/* 其他方式 end */
